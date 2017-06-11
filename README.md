@@ -3,12 +3,12 @@
 Collection of projects demonstrating what I've learned in Javascript
 
 
-1. ToDoList:
+1. <a href="http://htmlpreview.github.io/?https://github.com/zStaticShockz/BasicJsProjects/blob/master/TodoList/todolist.html">ToDoList</a>:
 Emphasis for this project was learning to map out the versions of a program and improve it piece by piece. This was also my first real practice of using objects to organize program functionality by having view, handler, and todoList objects with their respective methods. Perhaps this is a watered down example of the model, view, controller architecture?
 
 The next steps I'd like to take on improving this project are items on the todo list itself.
 
-2. Etch a Sketch:
+2. <a href="https://codepen.io/zStaticShockz/full/bqmKMg/">Etch a Sketch</a>:
 First project suggested by The Odin Project. Great way for me to apply jQuery and DOM manipulation. I had the random color button working for a little while but eventually got ahead of myself and broke it. My goal is to be able to color some nodes one color, then press random color to change to a new color and only apply that nodes that haven't received a color yet. So say you drew the brown trunk of tree, hit random color and got a shade of green, then colored the tree canopy, hit random again and used a shade of blue to make the sky/background. After I accomplish that functionality and refactor the code I'll consider this project complete.
 
 3. Untitled RPG
