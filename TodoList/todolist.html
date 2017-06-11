@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> TodoList </title>
+      <link rel="stylesheet" href="../../bootstrap-4-alpha-6/css/bootstrap.css">
+      <!-- cdn link -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <!---->
+      <link href="todolist.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  </head>
+        <!--          End of Head         -->
+  <body>
+<div class="main">
+  <h1><a href="#">To Do List</a></h1>
+  <div>
+    <button onclick="handlers.toggleAllTodos()" >Toggle All</button>
+  </div>
+  <div>
+    <button onclick="handlers.addTodos()" >Add</button>
+    <input type="text" id="addItem"/>
+  </div>
+  <div>
+    <button onclick="handlers.completeTodos()" >Complete</button>
+    <input type="number" id="completePositionInput"/>
+  </div>
+  <div>
+    <button onclick="handlers.changeTodos()" >Change</button>
+    <input type="number" id="changePositionInput"/>
+    <input type="text" id="changeTextInput"/>
+  </div>
+
+    <!--  view object will display todo list below -->
+
+<ul>
+
+</ul>
+<br>
+<h4> this page is not mobile friendly... yet ;) </h4>
+<a href="../PortfolioSite/Blasher_portfolio.html"> Return to Home</a>
+
+
+  <!--          scripts          -->
+  <script src="../../tether.js"></script>
+<script src="../../jquery-3.2.1.js"></script>
+<script src="../../bootstrap-4-alpha-6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="todolist.js"></script>
+<!-- cdn links -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>

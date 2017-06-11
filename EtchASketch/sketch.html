@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Sketch Project</title>
+      <link href="sketchStyle.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    </head>
+<body>
+<div class="nav">
+  <input type="text" id="input" value="enter a number">
+  <button id='creategrid'>create grid</button>
+  <button id='cleargrid'>clear grid</button>
+  <button id='randomcolor'>Random Color</button>
+</div>
+<div id="description">
+  <h1>Etch-A-Sketch <br> By Daniel</h1>
+  <p>This is my first project completed using the basic web languages: Html,
+   CSS, Javascript and the Jquery library.
+  <p>
+  <h2>Instructions:</h2>
+  <ol>
+    <li>Default size is 16 x 16 grid for you to play with immediately</li>
+    <li>To change the node size enter a number (after 64 the resolution barely improves)</li>
+    <li>Hover your mouse over the grid and create cool patterns!</li>
+    <li>Hit "Clear" if you want to start over with a clean slate!</li>
+  </ol>
+  <p>This is still a work in progress. I want to get that random color button functioning where it changes the mouse over color change to a random rgb color.
+The randomizer function works, its adding css class to any node that hasn't been hovered over that I run into problems.
+    <br> In the mean time I hope you enjoy!
+    <br> Yay creativity!</p>
+  </div>
+<!-- Begin grid -->
+
+  <div class="table">
+
+  </div>
+<!-- End grid -->
+<script src="../../jquery-3.2.1.js"></script>
+<script type="text/javascript" src="sketchScript.js"></script>
+<!-- cdn links -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+  background-color: white;
+  margin:0 auto;
+  padding:0;
+  font-family:"Raleway"
+}
+
+.nav{
+  width:100%;
+  height:30px;
+  background-color: #9AFABC;
+  position:fixed;
+  left:0;
+  top:0;
+  text-align: center;
+  border-radius: 11px;
+}
+a{
+  text-decoration: none;
+
+}
+button{
+  margin:5px;
+}
+
+div{
+  border:1px solid black;
+}
+#description{
+  display:block;
+  margin:5% 40px 10px 10px;
+  margin-right: 0px;
+  background-color: #c2d6d6;
+  padding:0px 10px;
+  float:left;
+  width:40%;
+  min-width: 350px;
+  height:60%;
+}
+h1{
+  text-align: center;
+}
+.green{
+background-color:#9AFABC;
+}
+
+.table{
+float:right;
+display: inline-block;
+background:#000;
+margin:2%;
+margin-top: 5%;
+margin-left: 0px;
+border:5px black solid;
+border-radius:5px;
+font-size:0;
+}
+
+.node{
+  display:inline-block;
+  border:none;
+}
+
+.sketch0{
+  background:#42f49b;
+  border-radius:10px;
+}
+.sketch1{
+  background:#42f49b;
+  border-radius:10px;
+}
+.sketch2{
+  background:#42f49b;
+  border-radius:10px;
+}
+.sketch3{
+  background:#42f49b;
+  border-radius:10px;
+}
+
+
+#size{
+
+}
+.resize{
+
+}
