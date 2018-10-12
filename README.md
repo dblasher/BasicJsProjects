@@ -3,6 +3,8 @@
 Collection of projects demonstrating what I've learned in Javascript
 
 
+[Project hosted here]( https://dblasher.github.io/BasicJsProjects/)
+
 1. <a href="http://htmlpreview.github.io/?https://github.com/zStaticShockz/BasicJsProjects/blob/master/TodoList/todolist.html">ToDoList</a>:
 Emphasis for this project was learning to map out the versions of a program and improve it piece by piece. This was also my first real practice of using objects to organize program functionality by having view, handler, and todoList objects with their respective methods. Perhaps this is a watered down example of the model, view, controller architecture?
 
